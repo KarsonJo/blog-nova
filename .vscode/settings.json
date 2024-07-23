@@ -1,0 +1,28 @@
+{
+  "css.customData": [".vscode/tailwind.json"],
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "always"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "material-icon-theme.folders.associations": {
+    "[locale]": "I18n",
+    "components": "React-components",
+    "dtos": "Contract",
+    "features": "Components",
+    "redux": "Redux-store",
+    "redux-example": "Redux-actions",
+    "server-actions": "Event"
+  },
+  "tailwindCSS.classAttributes": ["class", "className", "classNames", ".*Class"],
+  "tailwindCSS.experimental.classRegex": [
+    ["Classes \\=([^;]*);", "'([^']*)'"],
+    ["Classes \\=([^;]*);", "\"([^\"]*)\""],
+    ["Classes \\=([^;]*);", "\\`([^\\`]*)\\`"]
+  ],
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+}
