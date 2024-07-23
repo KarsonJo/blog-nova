@@ -17,7 +17,7 @@ export default async function RootLayout({
   params: { locale: string };
 }) {
   return (
-    <html lang={locale}>
+    <html lang={locale} className="light">
       <body className={inter.className}>{children}</body>
     </html>
   );
