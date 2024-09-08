@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Html from "./client-html";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -17,8 +18,8 @@ export default async function RootLayout({
   params: { locale: string };
 }) {
   return (
-    <html lang={locale} className="light">
+    <Html lang={locale}>
       <body className={inter.className}>{children}</body>
-    </html>
+    </Html>
   );
 }

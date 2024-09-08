@@ -21,18 +21,19 @@ const config: Config = {
   plugins: [
     createThemes({
       light: {
-        primary: "rgb(203 255 4)",
-        "primary-fg": "rgb(63 63 70)" /** zink-700 */,
-        secondary: "rgb(12 208 224)",
-        "secondary-fg": "white",
+        primary: "#FFB633",
+        "primary-fg": "#18181b" /** zinc-900 */,
+        secondary: "#BEFF33",
+        "secondary-fg": "#18181b" /** zinc-900 */,
       },
       dark: {
-        primary: "rgb(203 255 4)",
-        "primary-fg": "rgb(63 63 70)" /** zink-700 */,
-        secondary: "rgb(92 210 185)",
-        "secondary-fg": "white",
+        primary: "#FFB633",
+        "primary-fg": "#18181b" /** zinc-900 */,
+        secondary: "#BEFF33",
+        "secondary-fg": "#18181b" /** zinc-900 */,
       },
     }),
+    require("@tailwindcss/typography"),
   ],
 };
 export default config;
